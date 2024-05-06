@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Beauty-festival/static/css/main.bae585a3.css",
+    "main.js": "/Beauty-festival/static/js/main.c7e0236f.js",
+    "static/js/453.21cbeb18.chunk.js": "/Beauty-festival/static/js/453.21cbeb18.chunk.js",
+    "static/media/partner7.png": "/Beauty-festival/static/media/partner7.64a2ee62797f705690b0.png",
+    "static/media/partner2.png": "/Beauty-festival/static/media/partner2.2a39579c2039121063cf.png",
+    "static/media/partner9.png": "/Beauty-festival/static/media/partner9.13ada2f9cc60eadb7e5e.png",
+    "static/media/partner1.png": "/Beauty-festival/static/media/partner1.0a0dff9a650b7ee03546.png",
+    "static/media/partner6.png": "/Beauty-festival/static/media/partner6.22ae4a0849301a6ddb9a.png",
+    "static/media/Bullseye.svg": "/Beauty-festival/static/media/Bullseye.dd05eb5ea911f6d55341.svg",
+    "index.html": "/Beauty-festival/index.html",
+    "main.bae585a3.css.map": "/Beauty-festival/static/css/main.bae585a3.css.map",
+    "main.c7e0236f.js.map": "/Beauty-festival/static/js/main.c7e0236f.js.map",
+    "453.21cbeb18.chunk.js.map": "/Beauty-festival/static/js/453.21cbeb18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae585a3.css",
+    "static/js/main.c7e0236f.js"
+  ]
+}
