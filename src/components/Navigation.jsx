@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LogoImg from '../img/logo.png'
 
 const Navigation = () => {
     return (
@@ -8,10 +9,7 @@ const Navigation = () => {
             <div className="branding">
               <div className="logo">
                 {/* Вставьте ваш логотип здесь */}
-                <img src="logo.png" alt="Логотип" />
-              </div>
-              <div className="slogan">
-                <p>Ваш слоган здесь</p>
+                <img src={LogoImg} alt="Логотип" />
               </div>
             </div>
             <div className="top-line"></div>

@@ -14,18 +14,46 @@ import Partner10 from '../img/partner10.jpg';
 const MainContent = () => {
   return (
     <div>
-      {/* <div className="main-content">
-
-        <div className="content-overlay">
-          <h1 className="main-title">Международная Премия</h1>
-          <h1 className="main-title">“Олимп Красоты”</h1>
-          <Link to={{
-          pathname: "/form",
-          }}>
-          <button className="join-button">Подать заявку</button>
-          </Link>
+    <div className="main-content">
+      <div className="overlay-text">
+        <div className='main-text-wrap'>
+      <div className='maincon-title'>Звезды красоты</div>
+        <div className='maincon-sub-title'>BEAUTY ART FESTIVAL</div>
+        <div className='maincon-sub2-title'><span className='text-color'>БЬЮТИ</span> - СОБЫТИЕ <span className='text-color'>№1</span></div>
+        <button className="maincon-button">Чемпионаты</button>
         </div>
-      </div> */}
+      </div>
+    </div>
+    <div className='wrapper'>
+    <div className="stats-section">
+
+        <div className="stat-item">
+          <div className="stat-number">4</div>
+          <div className="stat-description">чемпионатов мира</div>
+        </div>
+        <div className="stat-item">
+          <div className="stat-number"><span className='color-black'>14</span></div>
+          <div className="stat-description">обучающих программ</div>
+        </div>
+        <div className="stat-item">
+          <div className="stat-number">1000+</div>
+          <div className="stat-description">участников</div>
+        </div>
+
+      </div>
+          <div className="stats-section-2">
+
+        <div className="stat-item-2">
+          <div className="stat-number-2"><span className='color-black'>12</span></div>
+          <div className="stat-description">стран мира</div>
+        </div>
+        <div className="stat-item">
+          <div className="stat-number-2">100+</div>
+          <div className="stat-description">владельцев салонов красоты</div>
+        </div>
+
+      </div>
+      </div>
           <section className='main-section'>
           <div className='wrapper'>
     <div className='title'>О конкурсе "Звезды красоты"</div>
@@ -70,20 +98,19 @@ const MainContent = () => {
     </div>
   </div>
 </section>
-<section className='main-section'>
+<section className='target-section'>
           <div className='wrapper'>
-    <div className='title'>Наши цели</div>
-    <div className='awards-cont'>
-    <div className="content-details-list">
+    <div className='target-title'>Наши цели</div>
+    <div className='target-cont'>
+    <div className="target-text">
     Международный конкурс beauty мастеров "Звезды красоты" является одним из самых значимых событий в индустрии красоты и моды. Это мероприятие собирает ведущих профессионалов со всего мира, каждый из которых уникален в своей области — от визажистов и стилистов до мастеров перманентного макияжа и эстетической медицины. Участие в конкурсе — это не просто возможность показать свое мастерство, но и честь представлять свою страну на международной арене, а также шанс внести свой вклад в глобальные тенденции красоты.
     </div>
-        <div className="awards-image"></div>
         </div>
     </div>
     </section>
     <section className='for-section'>
     <div class="for-content">
-    <h2 class="for-title">НАШИ ПАРТНЕРЫ</h2>
+    <h2 class="for-title">ПАРТНЕРЫ</h2>
     <div className="partner-images">
           <div className="partner-card">
             <img src={Partner1} alt="Partner1" className="partner-image" />

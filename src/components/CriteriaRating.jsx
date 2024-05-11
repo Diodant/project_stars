@@ -4,7 +4,7 @@ import React from 'react';
 function CriteriaRating() {
   return (
     <div>
-    <section className='main-section'>
+    <section className='rating-section'>
     <div className='wrapper'>
     <div className='title mb-100'>Критерии оценки "Звезды красоты"</div>
     <p className='sub-title'>Маникюр, моделирование, дизайн, педикюр и подология:</p>

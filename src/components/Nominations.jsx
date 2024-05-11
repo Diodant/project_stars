@@ -4,7 +4,7 @@ import React from 'react';
 function Nominations() {
   return (
     <div>
-    <section className='main-section'>
+    <section className='nomination-section'>
     <div className='wrapper'>
     <div className='title'>Номинации международного конкурса beauty мастеров "Звезды красоты"</div>
     <div className='text mb-30'>На нашем Международном конкурсе beauty мастеров "Звезды красоты" мы предоставляем уникальную платформу для демонстрации мастерства в различных областях индустрии красоты. Каждая номинация оценивается отдельно, и участники имеют возможность проявить свои лучшие навыки и креативность</div>
