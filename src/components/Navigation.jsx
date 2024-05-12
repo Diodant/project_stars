@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LogoImg from '../img/logo.png'
+import LogoImg from '../img/logo.svg'
 
 const Navigation = () => {
     return (

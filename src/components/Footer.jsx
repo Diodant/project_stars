@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LogoImg from '../img/logo.png';
+import LogoImg from '../img/logo.svg';
 import PhoneImg from '../img/phone-call_8643567.png';
 import LocationImg from '../img/gps_13403055.png';
 import EmailImg from '../img/email_458230.png';
