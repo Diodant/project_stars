@@ -1,5 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LogoImg from '../img/logo.png';
+import PhoneImg from '../img/phone-call_8643567.png';
+import LocationImg from '../img/gps_13403055.png';
+import EmailImg from '../img/email_458230.png';
 
 function Footer() {
   return (
@@ -12,26 +16,22 @@ function Footer() {
       </div>
       <div className="footer-section">
         <h4>Категории</h4>
-        <ul>
-          <li>О Звездах красоты</li>
-          <li>Положение</li>
-        </ul>
+        <Link to="/" className="footer-link">Главная</Link>
+        <Link to="/about" className="footer-link">О нас</Link>
+        <Link to="/ratings" className="footer-link">Критерии оценки</Link>
       </div>
       <div className="footer-section">
-        <h4>Предложения</h4>
-        <ul>
-          <li>Стать моделью</li>
-          <li>Стать партнером</li>
-          <li>Стать экспонентом</li>
-          <li>Забронировать отель</li>
-        </ul>
+        <h4>Звезды красоты</h4>
+        <Link to="/nominations" className="footer-link">Номинации</Link>
+        <Link to="/jury" className="footer-link">Жюри</Link>
+        <Link to="/winners" className="footer-link">Победители</Link>
       </div>
       <div className="footer-section">
         <h4>Наши контакты</h4>
-        <p>Украина, г. Киев тел.: +38 068 401 65 10</p>
-        <p>info@viridiland.com</p>
-        <div className="social-icons">
-          {/* Иконки соцсетей */}
+        <div className='footer-contacts'>
+        <p><img src={PhoneImg} alt="Phone Icon" />Украина, г. Киев</p>
+        <p><img src={LocationImg} alt="Location Icon" />+38 068 401 65 10</p>
+        <p><img src={EmailImg} alt="Email Icon" />info@viridiland.com</p>
         </div>
       </div>
     </footer>

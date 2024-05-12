@@ -11,21 +11,21 @@ function Contacts() {
       <div className="contact-item">
         <img src={PhoneImg} alt="Phone Icon" />
         <div className="contact-info">
-          <strong>ТЕЛЕФОНЫ:</strong>
-          <p>+38 (068) 401 65 10</p>
+          <strong>Телефон:</strong>
+          <p>+7 (495) 961-41-22</p>
         </div>
       </div>
       <div className="contact-item">
         <img src={EmailImg} alt="Email Icon" />
         <div className="contact-info">
-          <strong>E-MAIL:</strong>
+          <strong>E-mail:</strong>
           <p>info@viridiland.com</p>
         </div>
       </div>
       <div className="contact-item">
         <img src={LocationImg} alt="Location Icon" />
         <div className="contact-info">
-          <strong>МЕСТОПОЛОЖЕНИЕ:</strong>
+          <strong>Адрес:</strong>
           <p>Украина, г. Киев</p>
         </div>
       </div>

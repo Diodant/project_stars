@@ -8,7 +8,6 @@ const Navigation = () => {
           <div className="navbar-container">
             <div className="branding">
               <div className="logo">
-                {/* Вставьте ваш логотип здесь */}
                 <img src={LogoImg} alt="Логотип" />
               </div>
             </div>

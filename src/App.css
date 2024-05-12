@@ -195,14 +195,14 @@ a:focus {
 
 .main-content {
   position: relative;
-  width: 100%; /* ширина равна 100% от видимой ширины окна */
-  height: 70vh; /* высота равна 100% от видимой высоты окна */
-  background-image: url('./img/header-bg-new.png'); /* путь к вашей фоновой картинке */
-  background-size: cover; /* обеспечивает покрытие всей доступной области */
-  background-position: center; /* центрирует картинку */
+  width: 100%;
+  height: 70vh;
+  background-image: url('./img/header-bg-new.png');
+  background-size: cover;
+  background-position: center;
   display: flex;
-  align-items: center; /* вертикальное выравнивание текста */
-  justify-content: flex-start; /* горизонтальное выравнивание текста */
+  align-items: center;
+  justify-content: flex-start;
   font-family: "Roboto", sans-serif;
 }
 
@@ -345,21 +345,7 @@ a:focus {
   line-height: 1.3;
   font-weight: 700;
   margin-bottom: 30px;
-  /* position: relative;
-  display: inline-block; */
 }
-
-/* .title::after {
-  content: '';
-  display: inline-block;
-  width: 100%;
-  height: 2px;
-  background-color: #ab1368;
-  position: absolute;
-  bottom: -7px;
-  left: 0;
-  box-sizing: border-box;
-} */
 
 .text {
   font-weight: 300;
@@ -498,21 +484,52 @@ a:focus {
 }
 
 .custom-list {
-  list-style-type: none; /* Убирает стандартные маркеры */
-  padding-left: 0; /* Убирает отступ слева */
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .custom-list li {
-  background-image: url('./img/circle_5853933.png'); /* Укажите путь к вашему изображению */
-  background-repeat: no-repeat; /* Не повторять изображение */
-  background-position: 0 50%; /* Позиция изображения слева от текста, вертикально по центру */
-  background-size: 20px 20px; /* Размеры изображения */
-  padding-left: 30px; /* Отступ текста от изображения */
-  margin-bottom: 10px; /* Отступ между элементами списка */
+  background-image: url('./img/circle_5853933.png');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  margin-bottom: 10px;
   font-weight: 300;
   font-size: 26px;
   line-height: 1.6;
   text-align: start;
+}
+
+.gallery-con {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  gap: 15px;
+  padding: 0px 15px 100px 15px;
+}
+
+.gallery-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+}
+
+.gallery-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-title {
+  text-align: center;
 }
 
 /* .custom-list {
@@ -592,16 +609,54 @@ a:focus {
   box-sizing: border-box;
 }
 
+/* Position */
+
+.position-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./img/position-bg.jpg');
+  background-size: 880px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.position-title {
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 1.3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.position-text {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 26px;
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.position-cont {
+  padding: 50px 0px 35px 0px;
+}
+
 /* Contacts */
 
 .contacts-container {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  padding: 20px 0;
+  padding: 200px 0px 0px 0px;
 }
 
 .contacts-title {
@@ -612,12 +667,13 @@ a:focus {
   text-align: center;
   color: black;
   margin: 0 0 50px 0;
-  border-bottom: 3px solid #ab1368;
+  border-bottom: 3px solid #c45995;
 }
 
 .contact-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 50%;
 }
 
@@ -628,7 +684,7 @@ a:focus {
 }
 
 .contact-item img {
-  width: 60px; /* размер иконки */
+  width: 60px;
   margin-bottom: 15px;
 }
 
@@ -640,11 +696,13 @@ a:focus {
 }
 
 .contact-info strong {
-  font-size: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 15px;
 }
 
 .contact-info p {
-  font-size: 18px;
+  font-size: 22px;
   color: #333;
 }
 
@@ -679,8 +737,8 @@ a:focus {
 }
 
 .footer-logo p {
-  max-width: 350px; /* Ширина описания под логотипом */
-  font-size: 18px;
+  max-width: 350px;
+  font-size: 20px;
 }
 
 .footer-section h4 {
@@ -689,20 +747,30 @@ a:focus {
   font-weight: 500;
 }
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
+.footer-section p img {
+  width: 28px;
+  margin-right: 10px;
 }
 
-.footer-section ul li {
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.social-icons {
+.footer-section p{
   display: flex;
-  gap: 10px;
-  margin-top: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+.footer-link:hover {
+  color: #c45995;
 }
 
 @media (max-width: 768px) {
