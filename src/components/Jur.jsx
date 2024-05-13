@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import data from './data';
-
+import data2 from './data2';
+import data3 from './data3';
 
 
 function Jur() {
@@ -12,6 +13,8 @@ function Jur() {
   };
 
   const selectedYearData = data.find((item) => item.year === year);
+  const selectedYearData2 = data2.find((item) => item.year === year);
+  const selectedYearData3 = data3.find((item) => item.year === year);
 
   return (
     <div>
@@ -51,11 +54,7 @@ function Jur() {
         <div className='text mb-50'>Для обеспечения прозрачности процесса, результаты оценок и комментарии судей могут быть доступны участникам после завершения конкурса. Это дает участникам возможность понять, как были оценены их работы и какие аспекты можно улучшить в будущем.</div>
         <p className='jury-sub-title'>Подведение итогов</p>
         <div className='text mb-50'>Итоговые оценки формируются на основе среднего арифметического оценок от всех судей, что гарантирует сбалансированное и справедливое решение. В случае равенства баллов предусмотрены дополнительные меры для определения победителя, например, дополнительный раунд оценки или привлечение дополнительного судейского мнения.</div>
-        <div className='text'>Система оценки на "Звезды красоты" спроектирована так, чтобы отмечать исключительное мастерство и вдохновлять участников на достижение новых высот в индустрии красоты.</div>
-    </div>
-    </section>
-    <section className='main-section'>
-        <div className='wrapper'>
+        <div className='text mb-100'>Система оценки на "Звезды красоты" спроектирована так, чтобы отмечать исключительное мастерство и вдохновлять участников на достижение новых высот в индустрии красоты.</div>
         <div>
         <div className="winners-buttons">
           {data.map((item) => (
@@ -65,11 +64,101 @@ function Jur() {
           ))}
         </div>
         {selectedYearData && (
-          <div>
+          <div className='mb-100'>
             <h2 className='winners-title'>Жюри: {year}</h2>
             <div className='winners-title'>Маникюр, моделирование, дизайн, педикюр и подология</div>
             <div className="jury-con">
               {selectedYearData.items.map((item, index) => (
+                <div key={index} className='jury-profile'>
+                    <img  src={item.image} alt={`${year}_${index + 1}`} />
+                    <div className='jury-profile-card'>
+                    <h3 >{item.name} ({item.country})</h3>
+                    <ul className="jury-details-list">
+                      <li>
+                        {item.text1}
+                      </li>
+                      <li>
+                        {item.text2}
+                      </li>
+                      <li>
+                        {item.text3}
+                      </li>
+                      <li>
+                        {item.text4}
+                      </li>
+                      <li>
+                        {item.text5}
+                      </li>
+                      <li>
+                        {item.text6}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+      <div>
+        <div className="winners-buttons">
+          {data2.map((item) => (
+            <button key={item.year} onClick={() => handleYearChange(item.year)}>
+              {item.year}
+            </button>
+          ))}
+        </div>
+        {selectedYearData2 && (
+          <div className='mb-100'>
+            <h2 className='winners-title'>Жюри: {year}</h2>
+            <div className='winners-title'>Перманентный макияж, визаж, а также Lash и Brow направление</div>
+            <div className="jury-con">
+              {selectedYearData2.items.map((item, index) => (
+                <div key={index} className='jury-profile'>
+                    <img  src={item.image} alt={`${year}_${index + 1}`} />
+                    <div className='jury-profile-card'>
+                    <h3 >{item.name} ({item.country})</h3>
+                    <ul className="jury-details-list">
+                      <li>
+                        {item.text1}
+                      </li>
+                      <li>
+                        {item.text2}
+                      </li>
+                      <li>
+                        {item.text3}
+                      </li>
+                      <li>
+                        {item.text4}
+                      </li>
+                      <li>
+                        {item.text5}
+                      </li>
+                      <li>
+                        {item.text6}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+      <div>
+        <div className="winners-buttons">
+          {data3.map((item) => (
+            <button key={item.year} onClick={() => handleYearChange(item.year)}>
+              {item.year}
+            </button>
+          ))}
+        </div>
+        {selectedYearData3 && (
+          <div className='mb-100'>
+            <h2 className='winners-title'>Жюри: {year}</h2>
+            <div className='winners-title'>Парикмахерское искусство</div>
+            <div className="jury-con">
+              {selectedYearData3.items.map((item, index) => (
                 <div key={index} className='jury-profile'>
                     <img  src={item.image} alt={`${year}_${index + 1}`} />
                     <div className='jury-profile-card'>

@@ -739,7 +739,7 @@ a:focus {
 }
 
 .jury-profile img {
-  width: 300px;
+  max-width: 300px;
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
