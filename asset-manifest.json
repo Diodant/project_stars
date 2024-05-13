@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/project_stars/static/css/main.c432fd2c.css",
-    "main.js": "/project_stars/static/js/main.93447638.js",
-    "static/js/453.21cbeb18.chunk.js": "/project_stars/static/js/453.21cbeb18.chunk.js",
+    "main.css": "/project_stars/static/css/main.d11228a4.css",
+    "main.js": "/project_stars/static/js/main.ff2d8548.js",
+    "static/js/453.ed8dfe3b.chunk.js": "/project_stars/static/js/453.ed8dfe3b.chunk.js",
     "static/media/rating-bg.jpg": "/project_stars/static/media/rating-bg.826ec45d6c503387e453.jpg",
     "static/media/2.jpg": "/project_stars/static/media/2.b4babd2fcbb605d0bef1.jpg",
     "static/media/position-bg.jpg": "/project_stars/static/media/position-bg.db73e81ff73841b1eb2b.jpg",
@@ -25,6 +25,7 @@
     "static/media/16.png": "/project_stars/static/media/16.325917825a98720401f7.png",
     "static/media/25.jpg": "/project_stars/static/media/25.2f0c8adcef8dc4f33347.jpg",
     "static/media/10.png": "/project_stars/static/media/10.f61bbc2f18149e986e55.png",
+    "static/media/winners-bg.webp": "/project_stars/static/media/winners-bg.72155bb9bc2f5c534550.webp",
     "static/media/22.png": "/project_stars/static/media/22.9789b7f7c6f9faf789f4.png",
     "static/media/6.png": "/project_stars/static/media/6.6ffa59f8ff3a53ad6a57.png",
     "static/media/11.png": "/project_stars/static/media/11.0991c17613738a4c11b9.png",
@@ -36,25 +37,37 @@
     "static/media/28.jpg": "/project_stars/static/media/28.f7ff799964b09bf887d2.jpg",
     "static/media/5599064.jpg": "/project_stars/static/media/5599064.46b7f979d356f136f850.jpg",
     "static/media/19.jpg": "/project_stars/static/media/19.3f548465a40d3d0d2b50.jpg",
+    "static/media/jury-bg.webp": "/project_stars/static/media/jury-bg.5758ce292746e362cc41.webp",
     "static/media/4.png": "/project_stars/static/media/4.10684027e14bb719a7d9.png",
     "static/media/partner2.png": "/project_stars/static/media/partner2.2a39579c2039121063cf.png",
     "static/media/2.png": "/project_stars/static/media/2.b6319152dcfc05198380.png",
     "static/media/3.png": "/project_stars/static/media/3.879df7402b830ef46100.png",
     "static/media/partner9.png": "/project_stars/static/media/partner9.13ada2f9cc60eadb7e5e.png",
     "static/media/partner1.png": "/project_stars/static/media/partner1.0a0dff9a650b7ee03546.png",
+    "static/media/img2021_3.jpg": "/project_stars/static/media/img2021_3.a4817d28971f68d1c24a.jpg",
+    "static/media/img2023_2.jpg": "/project_stars/static/media/img2023_2.c4f562d5d10b13fb444c.jpg",
+    "static/media/img2022_1.jpg": "/project_stars/static/media/img2022_1.cd9d81fa85de79ec4b99.jpg",
+    "static/media/img2021_2.jpg": "/project_stars/static/media/img2021_2.b884e014348db78d5c56.jpg",
+    "static/media/img2023_3.jpg": "/project_stars/static/media/img2023_3.f80f29f139e4ef9fe21a.jpg",
     "static/media/phone-call_8643567.png": "/project_stars/static/media/phone-call_8643567.8b6184b691df1e7f641f.png",
+    "static/media/img2022_2.jpg": "/project_stars/static/media/img2022_2.1a9b9a6d9a1f0921b7b7.jpg",
+    "static/media/img2023_1.jpg": "/project_stars/static/media/img2023_1.3b0cc2bbdfbe940909c7.jpg",
+    "static/media/first-position_10000615.png": "/project_stars/static/media/first-position_10000615.854f67cf463914e3a452.png",
+    "static/media/img2021_1.jpg": "/project_stars/static/media/img2021_1.25f1e347a87f81be6194.jpg",
     "static/media/email_458230.png": "/project_stars/static/media/email_458230.a3bea4767991d9590b52.png",
+    "static/media/img2020_1.jpg": "/project_stars/static/media/img2020_1.74aa1f9dd8d0c11c3868.jpg",
     "static/media/logo.svg": "/project_stars/static/media/logo.6c43bb1a64990479ba2e38c4f8ff8537.svg",
     "static/media/circle_5853933.png": "/project_stars/static/media/circle_5853933.c29c6c66f2be4e187ee5.png",
+    "static/media/img2020_2.jpg": "/project_stars/static/media/img2020_2.b0992fb9cdbb4d96d9e7.jpg",
     "static/media/gps_13403055.png": "/project_stars/static/media/gps_13403055.47274ab14a30a9cbe09a.png",
     "static/media/partner6.png": "/project_stars/static/media/partner6.22ae4a0849301a6ddb9a.png",
     "index.html": "/project_stars/index.html",
-    "main.c432fd2c.css.map": "/project_stars/static/css/main.c432fd2c.css.map",
-    "main.93447638.js.map": "/project_stars/static/js/main.93447638.js.map",
-    "453.21cbeb18.chunk.js.map": "/project_stars/static/js/453.21cbeb18.chunk.js.map"
+    "main.d11228a4.css.map": "/project_stars/static/css/main.d11228a4.css.map",
+    "main.ff2d8548.js.map": "/project_stars/static/js/main.ff2d8548.js.map",
+    "453.ed8dfe3b.chunk.js.map": "/project_stars/static/js/453.ed8dfe3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c432fd2c.css",
-    "static/js/main.93447638.js"
+    "static/css/main.d11228a4.css",
+    "static/js/main.ff2d8548.js"
   ]
 }
