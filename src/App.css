@@ -393,13 +393,11 @@ a:focus {
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
-  color: #fff;
 }
 
 .for-title {
   font-size: 45px;
   text-transform: uppercase;
-  color: #000;
   line-height: 1.3;
   font-weight: 700;
   margin-bottom: 30px;
@@ -479,7 +477,6 @@ a:focus {
     line-height: 1.3;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #000;
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8)
 }
 
@@ -646,6 +643,253 @@ a:focus {
 .position-cont {
   padding: 50px 0px 35px 0px;
 }
+
+/* Jury */
+
+.jury-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./img/jury-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 230px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+.jurycon-text-wrap {
+  padding: 80px 0 80px;
+    position: relative;
+    text-align: center;
+}
+
+.jurycon-title {
+  color: #ffffff;
+    font-size: 68px;
+    letter-spacing: 0.034em;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.jurycon-sub-title {
+  color: #fff;
+  font-size: 31px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.jurycon-sub2-title {
+  color: #fff;
+    font-size: 54px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+.jury-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.jury-list li {
+  background-image: url('./img/circle_5853933.png');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 25px 25px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.6;
+  text-align: start;
+}
+
+.jury-sub-title {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.jury-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.jury-profile {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.jury-profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.jury-profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 40px;
+  float: left;
+}
+
+.jury-profile-card h3 {
+  font-size: 28px;
+  color: #333;
+  font-size: 400;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+
+
+.jury-details-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.jury-details-list li {
+  background-image: url('./img/circle_5853933.png');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 15px 15px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: start;
+}
+
+
+
+/* Winners */
+
+.win{
+  margin: 100px 0px;
+  text-align: center;
+}
+
+.winners-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./img/winners-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 230px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.winners-title {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.winners-title img{
+  width: 60px;
+  margin-left: 15px;
+}
+
+.win-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.win-card {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.win-title {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+
+.win-sub-title {
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: none;
+  color: #000;
+  text-shadow:none;
+}
+
+#first-place {
+  color: #ee88c2;
+
+}
+
+#second-place {
+  color: #d275a5;
+
+}
+
+#third-place {
+  color: #ba5d87;
+
+}
+
+.winners-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+
+.winners-buttons button {
+  background-color: #ee88c2;
+  color: black;
+  border: 2px solid #ee88c2;
+  opacity: 0.9;
+  padding: 15px 30px;
+  margin: 0 10px;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.winners-buttons button:hover {
+  background-color: transparent;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2)
+}
+
 
 /* Contacts */
 
