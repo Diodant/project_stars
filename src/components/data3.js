@@ -5,7 +5,7 @@ import Img2022_1 from '../img/jury/data3 img2022_1.jpg'
 import Img2022_2 from '../img/jury/data3 img2022_2.jpg'
 import Img2022_3 from '../img/jury/data3 img2022_3.jpg'
 
-const data2 = [
+const data3 = [
     {
       year: 2023,
       items: [
@@ -198,4 +198,4 @@ const data2 = [
       },
   ];
 
-  export default data2;
+  export default data3;
