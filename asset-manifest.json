@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project_stars/static/css/main.3e7601de.css",
-    "main.js": "/project_stars/static/js/main.0aade163.js",
+    "main.css": "/project_stars/static/css/main.ff9f4704.css",
+    "main.js": "/project_stars/static/js/main.81806c1f.js",
     "static/js/453.ed8dfe3b.chunk.js": "/project_stars/static/js/453.ed8dfe3b.chunk.js",
     "static/media/rating-bg.jpg": "/project_stars/static/media/rating-bg.826ec45d6c503387e453.jpg",
     "static/media/2.jpg": "/project_stars/static/media/2.b4babd2fcbb605d0bef1.jpg",
@@ -22,7 +22,6 @@
     "static/media/data7 img2022_3.png": "/project_stars/static/media/data7 img2022_3.9a166e83eeb9255b84dc.png",
     "static/media/24.png": "/project_stars/static/media/24.d3cd04adcc7e6618fcc0.png",
     "static/media/18.png": "/project_stars/static/media/18.24e783128bf9d3ac9e98.png",
-    "static/media/location.png": "/project_stars/static/media/location.e4b12ac764486b1015a3.png",
     "static/media/data7 img2020_3.png": "/project_stars/static/media/data7 img2020_3.8be493f3721f813d8858.png",
     "static/media/data7 img2020_2.png": "/project_stars/static/media/data7 img2020_2.2af4a15bfdb5518aeee5.png",
     "static/media/5.png": "/project_stars/static/media/5.3f43a96663019f530581.png",
@@ -109,12 +108,12 @@
     "static/media/data2 img2023_2.jpg": "/project_stars/static/media/data2 img2023_2.f0b91dd92e01efe57071.jpg",
     "static/media/partner6.png": "/project_stars/static/media/partner6.22ae4a0849301a6ddb9a.png",
     "index.html": "/project_stars/index.html",
-    "main.3e7601de.css.map": "/project_stars/static/css/main.3e7601de.css.map",
-    "main.0aade163.js.map": "/project_stars/static/js/main.0aade163.js.map",
+    "main.ff9f4704.css.map": "/project_stars/static/css/main.ff9f4704.css.map",
+    "main.81806c1f.js.map": "/project_stars/static/js/main.81806c1f.js.map",
     "453.ed8dfe3b.chunk.js.map": "/project_stars/static/js/453.ed8dfe3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e7601de.css",
-    "static/js/main.0aade163.js"
+    "static/css/main.ff9f4704.css",
+    "static/js/main.81806c1f.js"
   ]
 }
