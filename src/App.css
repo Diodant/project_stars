@@ -893,7 +893,7 @@ a:focus {
 
 /* Contacts */
 
-.contacts-container {
+/* .contacts-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -967,6 +967,54 @@ a:focus {
   .contact-item {
     margin-bottom: 20px;
   }
+} */
+
+.contact-container {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  color: #666;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.contact-block {
+  text-align: start;
+  margin-top: 30px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact-block h2 {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-block p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.contact-block a {
+  color: #ee88c2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-block a:hover {
+  color: #c45995;
+  text-decoration: underline;
 }
 
 /* Footer */
