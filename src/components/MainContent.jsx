@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import videoBg from '../img/video_bg.mp4';
 import Partner1 from '../img/partner1.png';
 import Partner2 from '../img/partner2.png';
 import Partner3 from '../img/partner3.png';
@@ -55,14 +56,19 @@ const MainContent = () => {
   return (
     <div>
     <div className="main-content">
-      <div className="overlay-text">
+    <video autoPlay muted loop className="background-video" style={{ position: 'absolute', width: '100%', height: '100%', top: '0', left: '0', objectFit: 'cover' }}>
+          <source src={videoBg} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+      {/* <div className="overlay-text">
         <div className='main-text-wrap'>
       <div className='maincon-title'>Звезды красоты</div>
         <div className='maincon-sub-title'>BEAUTY ART FESTIVAL</div>
         <div className='maincon-sub2-title'><span className='text-color'>БЬЮТИ</span> - СОБЫТИЕ <span className='text-color'>№1</span></div>
         <button className="maincon-button">Чемпионаты</button>
         </div>
-      </div>
+      </div> */}
     </div>
     <div className='wrapper'>
     <div className="stats-section">

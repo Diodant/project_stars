@@ -197,13 +197,17 @@ a:focus {
   position: relative;
   width: 100%;
   height: 70vh;
-  background-image: url('./img/header-bg-new.png');
+  /* background-image: url('./img/header-bg-new.png');
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
   font-family: "Roboto", sans-serif;
+}
+
+.background-video {
+
 }
 
 .overlay-text {
