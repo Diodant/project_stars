@@ -19,6 +19,7 @@ const Navigation = () => {
               <Link to="/winners" className="link">Победители</Link>
               <Link to="/position" className="link">Положение</Link>
               <Link to="/ratings" className="link">Критерии оценки</Link>
+              <Link to="/articles" className="link">Статьи</Link>
               <Link to="/contacts" className="link">Контакты</Link>
             </div>
           </div>
