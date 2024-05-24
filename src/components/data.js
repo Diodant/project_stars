@@ -6,7 +6,7 @@ import Img2022_2 from '../img/jury/img2022_2.jpg'
 import Img2022_3 from '../img/jury/img2023_3.jpg'
 import Img2021_1 from '../img/jury/img2021_1.jpg'
 import Img2021_2 from '../img/jury/img2021_2.jpg'
-import Img2021_3 from '../img/jury/img2021_3.jpg'
+import Img2021_3 from '../img/jury/img2021_4.jpg'
 import Img2020_1 from '../img/jury/img2020_1.jpg'
 import Img2020_2 from '../img/jury/img2020_2.jpg'
 
@@ -113,15 +113,15 @@ const data = [
             text6: 'Организатор чемпионатов Nail Bridge и Nail Battle',
           },
           {
-            name: 'Анна Карпова',
-            country: 'Россия',
+            name: 'ИНГА АВАНЕСЯН',
+            country: 'УКРАИНА',
             image: Img2021_3,
-            text1: 'Мастер маникюра и педикюра',
-            text2: 'Многократный Победитель и призер Международных Чемпионатов',
-            text3: 'Чемпион России и Мира',
-            text4: 'Официальный инструктор SMART',
-            text5: 'Партнёр и судья союза ЭСБИ',
-            text6: 'Руководитель и тренер команды "Anabell Neil Art"',
+            text1: 'Директор по маникюру и педикюру Международной сети салонов «PIED-DE-POULE»',
+            text2: 'Член Международной Ассоциацией Красоты и Ухода IABC (International Association of Beauty and Care) ',
+            text3: 'Обладатель Патента на Полезную модель «Способ моделирования формы «Стилет» искусственного ногтя»',
+            text4: 'Спикер Международных форумов в сфере ногтевого сервиса',
+            text5: 'Судья Международных конкурсов в сфере ногтевого дизайна',
+            text6: 'Победитель Международной премии «Олимп красоты» в номинации «Инновации в процедурах»',
           },
         ],
       },
