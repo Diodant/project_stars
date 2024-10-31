@@ -113,14 +113,13 @@ const MainContent = () => {
     </section>
     <section class="for-section">
   <div class="for-content">
-    <h2 class="for-title">Номинации</h2>
     <div className='for-text-start'>
     <div class="big-number">01</div>
     <div class="for-text">Маникюр, моделирование, дизайн, педикюр и подология</div>
     </div>
     <div className='for-text-end'>
     <div class="big-number">02</div>
-    <div class="for-text">Перманентный макияж, визаж, а также Lash и Brow направление</div>
+    <div class="for-text">Перманентный макияж, а также Lash и Brow направление</div>
     </div>
     <div className='for-text-start'>
     <div class="big-number">03</div>
@@ -132,14 +131,18 @@ const MainContent = () => {
     </div>
     <div className='for-text-start'>
     <div class="big-number">05</div>
-    <div class="for-text">Массаж и телесные терапии</div>
+    <div class="for-text">Искусство Визажа</div>
     </div>
     <div className='for-text-end'>
     <div class="big-number">06</div>
-    <div class="for-text">Мастерство в области стиля и имиджа</div>
+    <div class="for-text">Массаж и телесные терапии</div>
     </div>
     <div className='for-text-start'>
     <div class="big-number">07</div>
+    <div class="for-text">Мастерство в области стиля и имиджа</div>
+    </div>
+    <div className='for-text-end'>
+    <div class="big-number">08</div>
     <div class="for-text">Фотография и видеография в индустрии красоты</div>
     </div>
   </div>

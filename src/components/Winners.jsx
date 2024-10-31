@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import data from './datawin';
 import WinImg from '../img/first-position_10000615.png';
 
@@ -8,6 +8,26 @@ function Winners() {
   const handleYearChange = (newYear) => {
     setYear(newYear);
   };
+
+  useEffect(() => {
+    const replaceName = () => {
+
+      const elements = document.querySelectorAll('[data-translate-custom="true"]');
+      elements.forEach((el) => {
+        if (document.documentElement.lang !== 'ru') {
+          el.textContent = 'Leila Gajiyeva (Kazakhstan)';
+        }
+      });
+    };
+
+    const observer = new MutationObserver(() => {
+      replaceName();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, []);
 
   const selectedYearData = data.find((item) => item.year === year);
   return (
@@ -38,7 +58,8 @@ function Winners() {
               {selectedYearData.items.map((item, index) => (
                 <div key={index} className="win-item">
                   <div className='winners-title'>{item.title}</div>
-                  <div id='first-place' className='win-title'>1 место - <span className='win-sub-title'>{item.name} ({item.country})</span></div>
+                  <div id='first-place' className='win-title'>1 место - <span className='win-sub-title' data-translate-custom={item.name === "Лейла Гаджиева" ? "true" : "false"}>{item.name} ({item.country})</span>
+                  </div>
                   <div id='second-place' className='win-title'>2 место - <span className='win-sub-title'>{item.name2} ({item.country2})</span></div>
                   <div id='third-place' className='win-title'>3 место - <span className='win-sub-title'>{item.name3} ({item.country3})</span></div>
                 </div>
