@@ -29,8 +29,8 @@ function Footer() {
       <div className="footer-section">
         <h4>Наши контакты</h4>
         <div className='footer-contacts'>
-        <p><img src={LocationImg} alt="Phone Icon" />Москва, Варшавское шоссе, 21 км</p>
-        <p><img src={PhoneImg} alt="Location Icon" />8 (800) 550-48-76</p>
+        <p><img src={LocationImg} alt="Phone Icon" />г. Москва, 21 км Варшавского шоссе, здание 4</p>
+        <p><img src={PhoneImg} alt="Location Icon" />8 (800) 550-32-18</p>
         <p><img src={EmailImg} alt="Email Icon" />beautystars@gmail.com</p>
         </div>
       </div>

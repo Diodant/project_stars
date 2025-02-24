@@ -35,14 +35,15 @@ function Contacts() {
   <div className="contact-container">
   <h1 className='title'>Контактная информация</h1>
   <div className="contact-block">
-    <h2 >Организатор конкурса: Международная Ассоциация Красоты и Ухода (International Association of Beauty and Care)</h2>
-    <p><strong>Адрес:</strong> 117405, Россия, Москва, Варшавское шоссе, 21 км</p>
-    <p><strong>Телефон:</strong> 8 (800) 550-48-76</p>
-    <p><strong>Email:</strong> <a href="mailto:iabc.association@gmail.com">iabc.association@gmail.com</a></p>
-    <p><strong>Сайт:</strong> <a href="https://iabc-association.com" target="_blank" rel="noopener noreferrer">iabc-association.com</a></p>
+    <h2 >Организатор конкурса: Международная Ассоциация Профессионалов Индустрии Красоты (МАПИК)</h2>
+    <p><strong>Адрес:</strong> 142718, г. Москва, 21 км Варшавского шоссе, здание 4</p>
+    <p>ИНН 7731377277, КПП 773101001</p>
+    <p><strong>Телефон:</strong> 8 (800) 550-32-18</p>
+    <p><strong>Email:</strong> <a href="mailto:mapik.ibi@yandex.ru">mapik.ibi@yandex.ru</a></p>
+    <p><strong>Сайт:</strong> <a href="https://mapik-ibi.ru/" target="_blank" rel="noopener noreferrer">https://mapik-ibi.ru/</a></p>
   </div>
   <div className="contact-block">
-    <h2>Официальный Email конкурса "Звезды красоты"</h2>
+    <h2>Официальный Email Международного конкурса beauty мастеров "Звезды красоты":</h2>
     <p><strong>Email:</strong> <a href="mailto:beautystars@gmail.com">beautystars@gmail.com</a></p>
   </div>
 </div>
